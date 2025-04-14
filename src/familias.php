@@ -7,7 +7,10 @@
         <p>Listagem completa das famílias cadastradas no sistema</p>
       </div>
 
-      <button class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#modalAdicionar">Adicionar Família</button>
+      <div style="display: flex; gap: 8px;">
+        <button class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#modalAdicionar">Adicionar Família</button>
+        <a href="backup_familias.php" class="btn btn-success">Backup CSV</a>
+      </div>
     </div>
     <div class="table-responsive">
       <table class="table table-bordered table-striped align-middle text-nowrap">
