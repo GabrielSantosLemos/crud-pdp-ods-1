@@ -6,9 +6,9 @@
 // $banco = 'familias_db';
 
 $host = 'localhost';    
-$usuario = 'username';      
-$senha = 'password';            
-$banco = 'database'; 
+$usuario = 'root';      
+$senha = '';            
+$banco = 'familias_db'; 
 
 
 $conexao = new mysqli($host, $usuario, $senha, $banco);
